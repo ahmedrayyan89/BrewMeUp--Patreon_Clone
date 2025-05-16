@@ -10,20 +10,20 @@
 
 // export default dashboard
 // app/dashboard/page.js
-import { auth } from "@/auth";
-import React from "react";
+// import { auth } from "@/auth";
+// import React from "react";
 
-export default async function Dashboard() {
-  const session = await auth();
+// export default async function Dashboard() {
+//   const session = await auth();
   
-  if (!session) {
-    redirect('/login');
-  }
+//   if (!session) {
+//     redirect('/login');
+//   }
 
-  return (
-    <div>
-      <h1>Welcome to your Dashboard</h1>
-      {/* Dashboard content */}
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <h1>Welcome to your Dashboard</h1>
+//       {/* Dashboard content */}
+//     </div>
+//   );
+// }
